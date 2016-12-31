@@ -1,0 +1,25 @@
+{
+  "name": "richardhj/contao-check-joomla-credentials",
+  "type": "contao-module",
+  "authors": [
+    {
+      "name": "Richard Henkenjohann",
+      "email": "richardhenkenjohann@googlemail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "richardhenkenjohann@googlemail.com"
+  },
+  "require": {
+    "php": "^5.3 || ^7.0",
+    "contao/core": "~3.2"
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "system/modules/check-joomla-credentials": "system/modules/check-joomla-credentials"
+      }
+    }
+  }
+}
